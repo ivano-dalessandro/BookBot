@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bookbot</name>
+  <version>1.0.0</version>
+  <description>The bookbot package</description>
+
+  <maintainer email="v.dalessandro4@studenti.poliba.it">Vito Ivano D'Alessandro</maintainer>
+  <maintainer email="a.venezia1@studenti.poliba.it">Antonio Venezia</maintainer>
+
+  <license>TODO</license>
+
+  <url type="website">https://github.com/ivano-dalessandro</url>
+  <url type="website">https://github.com/venezia-antonio</url>
+
+  <author email="v.dalessandro4@studenti.poliba.it">Vito Ivano D'Alessandro</author>
+  <author email="a.venezia1@studenti.poliba.it">Antonio Venezia</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>

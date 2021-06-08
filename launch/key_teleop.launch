@@ -1,0 +1,4 @@
+<launch>
+    <!-- Start key_teleop node in order to control the robot using keyboard-->
+    <node pkg="bookbot" type="keyboard_teleop.py" name="key_teleop" output="screen"/>
+</launch>
