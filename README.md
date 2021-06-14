@@ -5,7 +5,7 @@ This ROS package implements autonomous navigation using ROS Navigation Stack for
 SLAM algorithm is used to map an unknown environment, in particular a bookstore. Keyboard is used to teleoperate the robot in Gazebo in order to generate a map for the global planner of the navigation stack. The robot is equipped with a planar laser scan (Hokuyo Laser) which allows to sense the environment.
 The environment present both static and dynamic obstacles.
 
-[Simulation Video]() \
+[Simulation Video](https://youtu.be/0HSZ3LU_FVI)
 
 ## Mapping the indoor environment
 
